@@ -1,11 +1,38 @@
 
-*{list-style: none;}
+*{
+  list-style: none;
+  
+
+}
 
 
+main{font-family: 'Helvetica Neue', sans-serif;}
 
 
+img{max-width: 100%;}
 
-.Container{
+
+h1{
+  font-size: 2.5rem !important;
+  font-weight: 2rem !important;
+
+}
+
+
+hr{
+  
+  color: white ;
+  
+  width: 18%;
+  height: 10px;
+  display: block;
+  
+}
+
+
+.avatarheight{height: 256px;}
+
+.customcontainer{
   width: 60%;
   margin: 0 auto;
 
@@ -15,6 +42,8 @@
 
 }
 
+
+.jumbotron{padding-top: 160px;}
 
 .debug{
   background-color: blueviolet;
