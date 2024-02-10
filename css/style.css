@@ -1,135 +1,87 @@
-
-
-
 main{font-family: 'Helvetica Neue', sans-serif;}
-
 
 img{max-width: 100%;}
 
-
-h1{
-  font-size: 2.5rem ;
-  
-
-}
-
-
+h1{font-size: 2.5rem ;}
 h3{font-size: 1.5rem !important;}
 
 .spacebar{
-  
-  
   height: 3px;
   width: 12%;
 }
-
-
-
-
 .spacebar.white{background-color: white;}
-
 .spacebar.black{background-color: black ;}
-
 
 .avatarheight{height: 256px;}
 
 .customcontainer{
   width: 60%;
   margin: 0 auto;
-
-
-
-
-
 }
 
+nav.navbar, footer{background-color: #2c3e50 !important;}
+nav.navbar a{color: white;}
 
 .jumbotron{
   padding-top: 140px;
   padding-bottom:50px;
-
 }
-
-
-
-
 
 .about,.portfolio, .contactme{
   padding-top: 90px;
   padding-bottom: 60px;
-
-
 }
 
-
-
-
-.debug{
-  background-color: blueviolet;
-  border: solid 1px peru;
-}
-
-nav.navbar, footer{
-  background-color: #2c3e50 !important;
- 
-}
-
-
-nav.navbar a{color: white;}
-
-
-
-
-
-.last-section{
-  background-color: #3a546d;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  ;
-
-}
-
-.last-section a{
-  text-decoration:none ;
-  color: #1abc9c;
-
-}
-
-footer{
-  padding-top: 45px;
-  padding-bottom: 50px;
-
-}
-
-
-
-
-#bg-green{background-color: #1abc9c;}
-
-@media screen and (max-width:992px) {
-
-  
-  .spacebar.white, .spacebar.black{width:22%}
-}
-
-.customcontainer input,.customcontainer textarea {
+.contactme .customcontainer input,.customcontainer textarea {
   border-radius: 0;
   border-top: none;
   border-right: none;
   border-left: none;
 }
 
-.customcontainer input:focus,.customcontainer textarea:focus{box-shadow: none;}
+.contactme .customcontainer input:focus,.customcontainer textarea:focus{box-shadow: none;}
 
-.customcontainer input::placeholder,.customcontainer textarea::placeholder{color: #2b3d4f;} 
+.contactme .customcontainer input::placeholder,.customcontainer textarea::placeholder{color: #2b3d4f;} 
 
+.contactme .custombutton:hover {opacity: 0.8;}
 
+.portfolio i{font-size: 6rem;}
 
-.custombutton:hover {opacity: 0.8;}
+.last-section{
+  background-color: #3a546d;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
 
-.boxicon
-{height: 50px;
+.last-section a{
+  text-decoration:none ;
+  color: #1abc9c;
+}
+
+.boxicon{height: 50px;
   width: 50px;
   line-height: 50px;
-  
 }
+
+footer{
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+#bg-green{background-color: #1abc9c;}
+
+@media screen and (max-width:992px) {
+ .spacebar.white, .spacebar.black{width:22%}
+}
+
+.semi-transparent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9c;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.appear:hover .semi-transparent{opacity: .5;}
